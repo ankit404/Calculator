@@ -329,7 +329,7 @@ function calculator(button) {
         formula_str = data.formula.join('');
 
         //fix power and factorial
-        //searh for power and factorial functions 
+        //Searh for power and factorial functions 
         let POWER_SEARCH_RESULT = search(data.formula, POWER);
         let FACTORIAL_SEARCH_RESULT = search(data.formula, FACTORIAL);
         //console.log(data.formula, POWER_SEARCH_RESULT, FACTORIAL_SEARCH_RESULT);
