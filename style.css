@@ -7,7 +7,7 @@
 
 html {
     font-size: 16px;
-    //background-color: #636363;
+    background-color: #eceff4;
 }
 
 .calculator {
@@ -18,15 +18,15 @@ html {
 }
 
 .calc-container {
-    background-color: #1d1d1d;
+    background-color: #1d2840;
     width: 600px;
     height: auto;
     border-radius: 0 0 30px 30px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .output {
     width: 100%;
-    ;
 }
 
 .operation {
@@ -67,9 +67,10 @@ html {
 }
 
 .input {
-    background-color: #FFF;
+    background-color: #eceff4;
     border-radius: 0 0 25px 25px;
-    border: 1px solid #1d1d1d;
+    /* border: 1px solid #1d1d1d; */
+    border: none;
     height: 340px;
 }
 
@@ -119,7 +120,11 @@ html {
 }
 
 .active-angle {
-    background-color: #1d1d1d !important;
+    background-color: #3930d8 !important;
     color: #FFF !important;
     border-radius: 10px !important;
+}
+
+.button {
+    color: white;
 }
