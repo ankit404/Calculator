@@ -22,7 +22,7 @@ html {
     width: 600px;
     height: auto;
     border-radius: 0 0 30px 30px;
-    box-shadow: 10px 10px 5px grey;
+/*     box-shadow: 10px 10px 5px grey; */
 }
 
 .output {
@@ -69,7 +69,6 @@ html {
 .input {
     background-color: #eceff4;
     border-radius: 0 0 25px 25px;
-    /* border: 1px solid #1d1d1d; */
     border: none;
     height: 340px;
 }
